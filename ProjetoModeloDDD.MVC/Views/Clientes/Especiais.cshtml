@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ProjetoModeloDDD.MVC.ViewModels.ClienteViewModel>
+
+@{
+    ViewBag.Title = "Especiais";
+}
+
+<h2>Clientes especiais</h2>
+<h5>Clientes que estão a mais de cinco anos com o status de ativo na empresa!</h5>
+
+<table class="table">
+
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sobrenome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Ativo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sobrenome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { id = item.ClienteId }) |
+                @Html.ActionLink("Detalhes", "Details", new { id = item.ClienteId }) |
+                @Html.ActionLink("Deletar", "Delete", new { id = item.ClienteId })
+            </td>
+        </tr>
+
+    }
+</table>
+<div>
+    @Html.ActionLink("Voltar a lista", "Index")
+</div>
+
