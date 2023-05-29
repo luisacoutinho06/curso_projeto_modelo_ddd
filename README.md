@@ -1,6 +1,6 @@
 # **<div align="center">ProjetoModeloDDD</div>**
 #### **<div align="center">Projeto baseado no tutorial de ASP.NET C#, DDD, EF, AutoMapper e IoC do Eduardo Pires!</div>**
-##### **Tutorial realizado para entendimento da modelagem de software DDD, para a realização de projetos no estágio de desenvolvimento de software do [Grupo Minasmáquinas](https://www.linkedin.com/company/grupominasmaquinas/mycompany/).**
+##### **Tutorial realizado para entendimento da modelagem de software DDD, para a criação de projetos no estágio de desenvolvimento de software do [Grupo Minasmáquinas](https://www.linkedin.com/company/grupominasmaquinas/mycompany/).**
 <div align="center"> <img src="https://github.com/luisacoutinho06/ProjetoModeloDDD/blob/9c0061e06c418434358cd0768dc72f0effc0b84a/DDD.jpg"></div>
 
 
