@@ -24,4 +24,4 @@
 - **[ASP.NET MVC Core](https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-7.0): Foi utilizada esta tecnologia, pois implementa o padrão Model-View-Controller e oferece uma base padronizada e organizada para o desenvolvimento desta solução;**
 
 
-- **[Repositório Genérico e Especializado]().**
+- **[Repositório Genérico e Especializado](https://www.brunobrito.net.br/aspnet-core-mongodb-unit-of-work/).**
